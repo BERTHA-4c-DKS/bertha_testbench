@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     basedir = "./testsystems"
     dstdir = "./"
-    maxthread = 5
+    maxthread = 8
     maxrun = 4
     
     results = {}

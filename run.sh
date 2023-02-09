@@ -13,7 +13,7 @@ ulimit -s unlimited
 export OMP_SCHEDULE=$2
 export BERTHA_DFINIT_MODEL=$3
 export OMP_STACKSIZE=400M
-export MKL_NUM_THREADS=1
+#export MKL_NUM_THREADS=1
 
 for numth in $(seq 1 $1)
 do
