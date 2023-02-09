@@ -1,4 +1,5 @@
 import os
+import sys
 import shutil
 import subprocess
 
@@ -42,14 +43,14 @@ if __name__ == "__main__":
         for input in os.listdir(basedir+"/"+system):
             shutil.copyfile(basedir+"/"+system+"/"+input, dstdir+"/"+ input)
         
-        print("Running system: ", system)
-        print("  Maxthread: ", maxthread)
-        print("  Maxrun:    ", maxrun)
+        print("Running system: ", system, file=sys.stderr)
+        print("  Maxthread: ", maxthread, file=sys.stderr)
+        print("  Maxrun:    ", maxrun, file=sys.stderr)
     
         for threadsched in ["dynamic", "static"]:
-            print("  Sched:     ", threadsched)
+            print("  Sched:     ", threadsched, file=sys.stderr)
             for model in range(1,5):
-                print("  Model:     ", model)
+                print("  Model:     ", model, file=sys.stderr)
     
                 result = subprocess.run([dstdir+"/"+"run.sh", \
                     str(maxthread),  \
@@ -71,7 +72,7 @@ if __name__ == "__main__":
     
         print("System: ", system, \
             " Scheduler: ", scheduling, \
-            " Model: ", model)
+            " Model: ", model, file=sys.stderr)
     
         startnumth = False
         runcounter = 0
