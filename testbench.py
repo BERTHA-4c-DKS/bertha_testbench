@@ -4,6 +4,7 @@ import shutil
 import subprocess
 
 import numpy as np
+from zipfile import ZipFile
 
 class summirizedata:
     def __init__ (self):
@@ -59,10 +60,19 @@ if __name__ == "__main__":
                     str(maxrun)], stdout=subprocess.PIPE)
     
                 results[system+";"+threadsched+";"+str(model)] = result.stdout
-    
+
+                filename  = system+"_"+str(maxthread)+"_"+str(maxrun)+"_"+\
+                    threadsched+"_"+str(model)
+                with ZipFile(filename+".zip","w") as zip:
+                    for file in os.listdir(dstdir):
+                        if file.startswith("run_"):
+                            zip.write(file)
+                    for file in os.listdir(dstdir):
+                        if file.startswith("run_"):
+                            os.remove(file)
+
                 #print(result.stdout)
                 #print(result.stderr)
-    
             
     collectionresults = {}
     for key in results:
@@ -164,6 +174,9 @@ if __name__ == "__main__":
                     datatostore.walltime_stdev = np.std(totalwtime)
                     #print("WALLTIME: %10.5f s"%(avgtotalwtime))
                     
+                    datatostore.memory_avg = np.mean(memory)
+                    datatostore.memory_stdev = np.std(memory)
+                    
                     collectionresults[uniquekey] = datatostore
     
                 fitted_density = []
@@ -179,12 +192,12 @@ if __name__ == "__main__":
                 startnumth = True
                 numoftread = int(line.split()[-1])
 
-    print("System , Scheduling , Model , NumOfThreads , " + \
-        "FittedDensityUnique , FittedDensity ," + \
-        "FunctionalEnergyUnique , FunctionalEnergy ," + \
-        "VxcUnique , Vxc , "+ \
-        "TotalEnergyUnique , TotalEnergy , " + \
-        "CpuTime , WallTime , Memory ")
+    print("System,Scheduling,Model,NumOfThreads," + \
+        "FittedDensityUnique,FittedDensity,FittedDensityAvgStdev," + \
+        "FunctionalEnergyUnique,FunctionalEnergy,FunctionalEnergyAvgStdev," + \
+        "VxcUnique,Vxc,VxcAvgStdev,"+ \
+        "TotalEnergyUnique,TotalEnergy,TotalEnergyAvgStdev," + \
+        "CpuTime,WallTime,Memory")
     
     for key in collectionresults:
         system = key.split(";")[0]
@@ -195,12 +208,15 @@ if __name__ == "__main__":
         data = collectionresults[key]
     
         if (len(data.fitted_density) > 0):
-    
-            print (system, " , ",  scheduling, " , ", model, " , ", numoth, " , ", \
-                data.fitted_density_unique," , ", list(data.fitted_density)[-1], " , ", \
-                data.functional_energy_unique," , ", list(data.functional_energy)[-1], " , ", \
-                data.vxc_unique," , ", list(data.vxc)[-1], " , ", \
-                data.total_energy," , ", list(data.total_energy)[-1], " , ", \
-                data.cputime_avg," , ", data.walltime_avg ," , ", \
+            print (system,",",scheduling,",", model,",", numoth,",", \
+                data.fitted_density_unique,",", list(data.fitted_density)[-1],",", \
+                    np.mean(list(data.fitted_density))," +/- ",np.std(list(data.fitted_density)),",", \
+                data.functional_energy_unique,",", list(data.functional_energy)[-1],",", \
+                    np.mean(list(data.functional_energy))," +/- ",np.std(list(data.functional_energy)),",", \
+                data.vxc_unique,",", list(data.vxc)[-1], ",", \
+                    np.mean(list(data.vxc))," +/- ",np.std(list(data.vxc)),",", \
+                data.total_energy_unique,",", list(data.total_energy)[-1], ",", \
+                    np.mean(list(data.total_energy))," +/- ",np.std(list(data.total_energy)),",", \
+                data.cputime_avg,",", data.walltime_avg ,",", \
                 data.memory_avg)
-    
+
