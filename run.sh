@@ -6,6 +6,8 @@ then
    exit
 fi
 
+. /opt/intel/oneapi/setvars.sh 
+
 ulimit -s unlimited
 
 export OMP_SCHEDULE=$2
