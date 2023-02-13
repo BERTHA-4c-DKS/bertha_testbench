@@ -61,8 +61,8 @@ if __name__ == "__main__":
     
                 results[system+";"+threadsched+";"+str(model)] = result.stdout
 
-                filename  = system+"_"+str(maxthread)+"_"+str(maxrun)+"_"+\
-                    threadsched+"_"+str(model)
+                filename  = system+"_maxthread_"+str(maxthread)+"_maxrun_"+str(maxrun)+"_"+\
+                    threadsched+"_model_"+str(model)
                 with ZipFile(filename+".zip","w") as zip:
                     for file in os.listdir(dstdir):
                         if file.startswith("run_"):
