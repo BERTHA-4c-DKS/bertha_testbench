@@ -10,8 +10,8 @@ fi
 
 ulimit -s unlimited
 
-export OMP_SCHEDULE=$2
-export BERTHA_DFINIT_MODEL=$3
+export OMP_SCHEDULE=$3
+export BERTHA_DFINIT_MODEL=$2
 export OMP_STACKSIZE=400M
 #export MKL_NUM_THREADS=1
 
