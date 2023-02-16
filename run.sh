@@ -22,13 +22,13 @@ do
   for n in  $(seq 1 $4)
   do
      /usr/bin/time -v  ./bertha.serial 1> run_"$n"_"$numth".out 2> run_"$n"_"$numth".err
-     #grep "total fitted density" run_"$n"_"$numth".out  | tail -n 1
-     #grep "functional energy" run_"$n"_"$numth".out  | tail -n 1
-     #grep "vxc\[fit\]\*rho\[fit\] =" run_"$n"_"$numth".out  | tail -n 1
+     grep "total fitted density" run_"$n"_"$numth".out  | tail -n 1
+     grep "functional energy" run_"$n"_"$numth".out  | tail -n 1
+     grep "vxc\[fit\]\*rho\[fit\] =" run_"$n"_"$numth".out  | tail -n 1
      grep "total energy =" run_"$n"_"$numth".out  | tail -n 1
-     #grep "convergence obtained in" run_"$n"_"$numth".out
+     grep "convergence obtained in" run_"$n"_"$numth".out
      grep "Total time for iteration" run_"$n"_"$numth".err
-     #grep "Maximum resident set size (kbytes):" run_"$n"_"$numth".err
+     grep "Maximum resident set size (kbytes):" run_"$n"_"$numth".err
 
      rm -f fittcoeff.restart ovap.out fockmtx.txt vct.out 
   done
