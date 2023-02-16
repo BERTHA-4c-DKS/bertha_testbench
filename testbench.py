@@ -50,39 +50,35 @@ if __name__ == "__main__":
     
         for threadsched in ["dynamic", "static"]:
             print("  Sched:     ", threadsched, file=sys.stderr)
-            for model in range(1,5):
-                print("  Model:     ", model, file=sys.stderr)
     
-                result = subprocess.run([dstdir+"/"+"run.sh", \
-                    str(maxthread),  \
-                    str(model), \
-                    threadsched,  \
-                    str(maxrun)], stdout=subprocess.PIPE)
+            result = subprocess.run([dstdir+"/"+"run.sh", \
+                str(maxthread),  \
+                threadsched,  \
+                str(maxrun)], stdout=subprocess.PIPE)
     
-                results[system+";"+threadsched+";"+str(model)] = result.stdout
+            results[system+";"+threadsched] = result.stdout
 
-                filename  = system+"_maxthread_"+str(maxthread)+"_maxrun_"+str(maxrun)+"_"+\
-                    threadsched+"_model_"+str(model)
-                with ZipFile(filename+".zip","w") as zip:
-                    for file in os.listdir(dstdir):
-                        if file.startswith("run_"):
-                            zip.write(file)
-                    for file in os.listdir(dstdir):
-                        if file.startswith("run_"):
-                            os.remove(file)
+            filename  = system+"_maxthread_"+str(maxthread)+"_maxrun_"+str(maxrun)+"_"+\
+                threadsched
+            with ZipFile(filename+".zip","w") as zip:
+                for file in os.listdir(dstdir):
+                    if file.startswith("run_"):
+                        zip.write(file)
+                for file in os.listdir(dstdir):
+                    if file.startswith("run_"):
+                        os.remove(file)
 
-                #print(result.stdout)
-                #print(result.stderr)
+            #print(result.stdout)
+            #print(result.stderr)
             
     collectionresults = {}
     for key in results:
         system = key.split(";")[0]
         scheduling = key.split(";")[1]
-        model = key.split(";")[2]
     
         print("System: ", system, \
             " Scheduler: ", scheduling, \
-            " Model: ", model, file=sys.stderr)
+            file=sys.stderr)
     
         startnumth = False
         runcounter = 0
@@ -202,13 +198,12 @@ if __name__ == "__main__":
     for key in collectionresults:
         system = key.split(";")[0]
         scheduling = key.split(";")[1]
-        model = key.split(";")[2]
-        numoth = key.split(";")[3]
+        numoth = key.split(";")[2]
     
         data = collectionresults[key]
     
         if (len(data.fitted_density) > 0):
-            print (system,",",scheduling,",", model,",", numoth,",", \
+            print (system,",",scheduling,",", numoth,",", \
                 data.fitted_density_unique,",", list(data.fitted_density)[-1],",", \
                     np.mean(list(data.fitted_density))," +/- ",np.std(list(data.fitted_density)),",", \
                 data.functional_energy_unique,",", list(data.functional_energy)[-1],",", \
