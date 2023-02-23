@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# != 4 ]
+if [ $# != 2 ]
 then
    echo "usage: " $@ " maxnumofthread maxrun"
    exit

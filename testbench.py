@@ -193,7 +193,7 @@ if __name__ == "__main__":
         "FunctionalEnergyUnique,FunctionalEnergy,FunctionalEnergyAvgStdev," + \
         "VxcUnique,Vxc,VxcAvgStdev,"+ \
         "TotalEnergyUnique,TotalEnergy,TotalEnergyAvgStdev," + \
-        "CpuTime,WallTime,Memory")
+        "ConvergenceUnique,ConvergenceSet,CpuTime,WallTime,Memory")
     
     for key in collectionresults:
         system = key.split(";")[0]
@@ -212,6 +212,7 @@ if __name__ == "__main__":
                     np.mean(list(data.vxc))," +/- ",np.std(list(data.vxc)),",", \
                 data.total_energy_unique,",", list(data.total_energy)[-1], ",", \
                     np.mean(list(data.total_energy))," +/- ",np.std(list(data.total_energy)),",", \
+                data.convergence_unique,",",str(data.convergence).replace(","," "),",", \
                 data.cputime_avg,",", data.walltime_avg ,",", \
                 data.memory_avg)
 
