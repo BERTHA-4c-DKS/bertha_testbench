@@ -188,7 +188,7 @@ if __name__ == "__main__":
                 startnumth = True
                 numoftread = int(line.split()[-1])
 
-    print("System,Scheduling,Model,NumOfThreads," + \
+    print("System,Scheduling,NumOfThreads," + \
         "FittedDensityUnique,FittedDensity,FittedDensityAvgStdev," + \
         "FunctionalEnergyUnique,FunctionalEnergy,FunctionalEnergyAvgStdev," + \
         "VxcUnique,Vxc,VxcAvgStdev,"+ \
