@@ -1,6 +1,7 @@
 import os
 import sys
 import shutil
+import pickle
 import subprocess
 
 import numpy as np
@@ -27,20 +28,54 @@ if __name__ == "__main__":
     maxthread = 8
     
     results = {}
+
+    krgridvalues = [25,  50,  75, 100, 125, 150, 175, 200]
+    kagridvalues = [86, 146, 194, 302, 434, 770, 974]
     
     for system in os.listdir(basedir):
         for input in os.listdir(basedir+"/"+system):
             shutil.copyfile(basedir+"/"+system+"/"+input, dstdir+"/"+ input)
-        
-        print("Running system: ", system, file=sys.stderr)
-        print("  Thread: ", maxthread, file=sys.stderr)
-    
-        result = subprocess.run([dstdir+"/"+"run.sh", \
-            str(maxthread)], stdout=subprocess.PIPE)
-    
-        results[system] = result.stdout
 
-        filename  = system+"_maxthread_"+str(maxthread)
+        for krgrid in krgridvalues:
+
+            kagrid = -1
+        
+            print("Running system: ", system, file=sys.stderr)
+            print("  Thread: ", maxthread, file=sys.stderr)
+            print("  KRGRID: ", krgrid, file=sys.stderr)
+            print("  KAGRID: ", kagrid, file=sys.stderr)
+            result = subprocess.run([dstdir+"/"+"run_density.sh", \
+                str(maxthread), str(krgrid), str(kagrid)], stdout=subprocess.PIPE)
+    
+            results[system+";"+str(maxthread)+";"+str(krgrid)+";"+str(kagrid)] = result.stdout
+        
+        for kagrid in kagridvalues:
+
+            krgrid = -1
+        
+            print("Running system: ", system, file=sys.stderr)
+            print("  Thread: ", maxthread, file=sys.stderr)
+            print("  KRGRID: ", krgrid, file=sys.stderr)
+            print("  KAGRID: ", kagrid, file=sys.stderr)
+            result = subprocess.run([dstdir+"/"+"run_density.sh", \
+                str(maxthread), str(krgrid), str(kagrid)], stdout=subprocess.PIPE)
+    
+            results[system+";"+str(maxthread)+";"+str(krgrid)+";"+str(kagrid)] = result.stdout
+
+        for krgrid in krgridvalues:
+
+            for  kagrid in kagridvalues:
+        
+                print("Running system: ", system, file=sys.stderr)
+                print("  Thread: ", maxthread, file=sys.stderr)
+                print("  KRGRID: ", krgrid, file=sys.stderr)
+                print("  KAGRID: ", kagrid, file=sys.stderr)
+                result = subprocess.run([dstdir+"/"+"run_density.sh", \
+                    str(maxthread), str(krgrid), str(kagrid)], stdout=subprocess.PIPE)
+            
+                results[system+";"+str(maxthread)+";"+str(krgrid)+";"+str(kagrid)] = result.stdout
+
+        filename = system
         with ZipFile(filename+".zip","w") as zip:
             for file in os.listdir(dstdir):
                 if file.startswith("run_"):
@@ -48,4 +83,7 @@ if __name__ == "__main__":
             for file in os.listdir(dstdir):
                 if file.startswith("run_"):
                     os.remove(file)
+
+    with open('results_data.pkl', 'wb') as fp:
+        pickle.dump(results, fp)
     
