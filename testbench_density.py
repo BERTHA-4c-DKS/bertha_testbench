@@ -34,7 +34,8 @@ if __name__ == "__main__":
     
     for system in os.listdir(basedir):
         for input in os.listdir(basedir+"/"+system):
-            shutil.copyfile(basedir+"/"+system+"/"+input, dstdir+"/"+ input)
+            if input == "input.inp" or input == "fitt2.inp":
+                shutil.copyfile(basedir+"/"+system+"/"+input, dstdir+"/"+ input)
 
         for krgrid in krgridvalues:
 
