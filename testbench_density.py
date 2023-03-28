@@ -36,7 +36,7 @@ if __name__ == "__main__":
         print("  Thread: ", maxthread, file=sys.stderr)
     
         result = subprocess.run([dstdir+"/"+"run.sh", \
-            str(maxthread)]stdout=subprocess.PIPE)
+            str(maxthread)], stdout=subprocess.PIPE)
     
         results[system] = result.stdout
 
@@ -48,3 +48,4 @@ if __name__ == "__main__":
             for file in os.listdir(dstdir):
                 if file.startswith("run_"):
                     os.remove(file)
+    
