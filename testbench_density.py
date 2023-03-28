@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     basedir = "./testsystems"
     dstdir = "./"
-    maxthread = 8
+    maxthread = 4
     
     results = {}
 
@@ -79,10 +79,10 @@ if __name__ == "__main__":
         filename = system
         with ZipFile(filename+".zip","w") as zip:
             for file in os.listdir(dstdir):
-                if file.startswith("run_"):
+                if file.startswith("run_"+str(maxthread)+"_"):
                     zip.write(file)
             for file in os.listdir(dstdir):
-                if file.startswith("run_"):
+                if file.startswith("run_"+str(maxthread)+"_"):
                     os.remove(file)
 
     with open('results_data.pkl', 'wb') as fp:
