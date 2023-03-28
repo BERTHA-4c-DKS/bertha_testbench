@@ -1,0 +1,1239 @@
+BERTHA version: 0.11.0 
+ BERTHA_DEBUG set to            1
+ total dimension of the matrix:    224
+
+ Add to Fit case 2 (or 6) 0 or 1 exact coulomb on
+  total dimension of the matrix:    224
+
+ total number of fitting function of type c is          70
+ total number of function blocks is          16
+ 
+ mc =          70
+ the selected case is           2
+ the total number of fittin function is          70
+ the total number of fittin function is          70
+ center            1  num. of func.           14
+ center            2  num. of func.           14
+ center            3  num. of func.           84
+ ************************************************************
+ 
+ 
+         molecular geometry a: cartesian coordinates         
+ 
+ centre        x-coordinate    y-coordinate    z-coordinate
+============================================================
+   h            10.001736        6.384493        0.000000
+ ------------------------------------------------------------
+   h            10.312929        9.288282        0.000000
+ ------------------------------------------------------------
+   o            11.294865        7.714406        0.000000
+ ------------------------------------------------------------
+ 
+ 
+                 molecular geometry b: r-matrix              
+ 
+ c1  c2       bond distance  c1  c2  c3     angle (degrees)  
+============================================================
+  h   h           2.920416
+ ------------------------------------------------------------
+  h   o           1.854953
+                              o   h   h        38.079648
+ ------------------------------------------------------------
+ 
+ 
+ 
+ 
+           initialze the atomic densities on each centre   
+ 
+ 
+  lqn:  0 occ:    1
+  ----------------------------------------
+  initializing atomic densities for z =   1
+  ----------------------------------------
+ hydrogenic eigenvalue:  -0.499284753673965     
+  lqn:  0 occ:    1
+  ----------------------------------------
+  initializing atomic densities for z =   1
+  ----------------------------------------
+ hydrogenic eigenvalue:  -0.499284753673965     
+  lqn:  0 occ:    2   2
+  lqn:  1 occ:    4
+  ----------------------------------------
+  initializing atomic densities for z =   8
+  ----------------------------------------
+  iteration:   1 total energy:    -111.825904
+  iteration:   2 total energy:     -76.975447
+  iteration:   3 total energy:     -74.670356
+  iteration:   4 total energy:     -74.868733
+  iteration:   5 total energy:     -74.784954
+  iteration:   6 total energy:     -74.803654
+  iteration:   7 total energy:     -74.799049
+  iteration:   8 total energy:     -74.800173
+  iteration:   9 total energy:     -74.799901
+  iteration:  10 total energy:     -74.799968
+  iteration:  11 total energy:     -74.799951
+  iteration:  12 total energy:     -74.799955
+  iteration:  13 total energy:     -74.799954
+  iteration:  14 total energy:     -74.799955
+ Total number of grid points=       13394
+ total fitted density   9.99958068434131     
+ total analytical fitted density   9.99957524140918     
+ functional energy  -9.15287712417719     
+  
+ vxc[fit]*rho[fit] =   -11.7243019631760     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    45.1904045166919     
+ Exc(rhofit)                  :   -9.15287712417719     
+  
+ iteration number:            1
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.0045856730711     
+ eigenvalue number, e:           2  -18.0045856730059     
+ eigenvalue number, e:           3 -3.288030532423702E-002
+ eigenvalue number, e:           4 -3.288030530909070E-002
+ eigenvalue number, e:           5  0.434999763445921     
+ eigenvalue number, e:           6  0.434999763527332     
+ eigenvalue number, e:           7  0.543045106618416     
+ eigenvalue number, e:           8  0.543045106703630     
+ eigenvalue number, e:           9  0.618193928523770     
+ eigenvalue number, e:          10  0.618193928537255     
+ lumo               e:          11 -1.542982515372016E-002
+ total electronic energy  =   -75.5014340370469     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -66.5337335384642     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99878605613819     
+ total analytical fitted density   9.99878068987542     
+ functional energy  -9.62811741514737     
+  
+ vxc[fit]*rho[fit] =   -12.3468461834720     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    49.2498392662765     
+ Exc(rhofit)                  :   -9.62811741514737     
+  
+ iteration number:            2
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.2896750302996     
+ eigenvalue number, e:           2  -18.2896750301541     
+ eigenvalue number, e:           3 -0.722408084861016     
+ eigenvalue number, e:           4 -0.722408084838284     
+ eigenvalue number, e:           5 -0.306472280960119     
+ eigenvalue number, e:           6 -0.306472280919237     
+ eigenvalue number, e:           7 -0.115342665475318     
+ eigenvalue number, e:           8 -0.115342665372834     
+ eigenvalue number, e:           9 -3.317733080363960E-002
+ eigenvalue number, e:          10 -3.317733080232466E-002
+ lumo               e:          11  5.330588081180603E-002
+ total electronic energy  =   -85.4652612824383     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4975607838556     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99942220605618     
+ total analytical fitted density   9.99941685007336     
+ functional energy  -9.23323865530753     
+  
+ vxc[fit]*rho[fit] =   -11.8317144475907     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.0077298652964     
+ Exc(rhofit)                  :   -9.23323865530753     
+  
+ iteration number:            3
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.9509878893805     
+ eigenvalue number, e:           2  -18.9509878893636     
+ eigenvalue number, e:           3 -0.943655076398205     
+ eigenvalue number, e:           4 -0.943655076321400     
+ eigenvalue number, e:           5 -0.487575398163411     
+ eigenvalue number, e:           6 -0.487575398133981     
+ eigenvalue number, e:           7 -0.353852234274047     
+ eigenvalue number, e:           8 -0.353852234231767     
+ eigenvalue number, e:           9 -0.279840460724766     
+ eigenvalue number, e:          10 -0.279840460719945     
+ lumo               e:          11  7.178836296856774E-003
+ total electronic energy  =   -85.4410761907244     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4733756921417     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99933152838041     
+ total analytical fitted density   9.99932622425793     
+ functional energy  -9.38802222112138     
+  
+ vxc[fit]*rho[fit] =   -12.0325155601136     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    47.2124383029029     
+ Exc(rhofit)                  :   -9.38802222112138     
+  
+ iteration number:            4
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.6820335591531     
+ eigenvalue number, e:           2  -18.6820335589315     
+ eigenvalue number, e:           3 -0.862628591137345     
+ eigenvalue number, e:           4 -0.862628591081710     
+ eigenvalue number, e:           5 -0.424844160950165     
+ eigenvalue number, e:           6 -0.424844160870716     
+ eigenvalue number, e:           7 -0.272752270444701     
+ eigenvalue number, e:           8 -0.272752270439992     
+ eigenvalue number, e:           9 -0.192390994862128     
+ eigenvalue number, e:          10 -0.192390994846606     
+ lumo               e:          11  2.766816046063806E-002
+ total electronic energy  =   -85.4372441166288     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4695436180461     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99943851759398     
+ total analytical fitted density   9.99943322507075     
+ functional energy  -9.31989362531785     
+  
+ vxc[fit]*rho[fit] =   -11.9438454242494     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.6677081887134     
+ Exc(rhofit)                  :   -9.31989362531785     
+  
+ iteration number:            5
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7982914384414     
+ eigenvalue number, e:           2  -18.7982914383512     
+ eigenvalue number, e:           3 -0.900259463499313     
+ eigenvalue number, e:           4 -0.900259463455111     
+ eigenvalue number, e:           5 -0.454108466926099     
+ eigenvalue number, e:           6 -0.454108466871696     
+ eigenvalue number, e:           7 -0.310807150349905     
+ eigenvalue number, e:           8 -0.310807150284216     
+ eigenvalue number, e:           9 -0.233003164752984     
+ eigenvalue number, e:          10 -0.233003164693172     
+ lumo               e:          11  1.861587738862498E-002
+ total electronic energy  =   -85.4366957574065     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4689952588238     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99943101679020     
+ total analytical fitted density   9.99942573886763     
+ functional energy  -9.34700645724033     
+  
+ vxc[fit]*rho[fit] =   -11.9790027258550     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.8752848355082     
+ Exc(rhofit)                  :   -9.34700645724033     
+  
+ iteration number:            6
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7518251001713     
+ eigenvalue number, e:           2  -18.7518251001475     
+ eigenvalue number, e:           3 -0.886386591639485     
+ eigenvalue number, e:           4 -0.886386591626531     
+ eigenvalue number, e:           5 -0.443508033492662     
+ eigenvalue number, e:           6 -0.443508033397965     
+ eigenvalue number, e:           7 -0.297009336179793     
+ eigenvalue number, e:           8 -0.297009336070666     
+ eigenvalue number, e:           9 -0.217957518627671     
+ eigenvalue number, e:          10 -0.217957518586282     
+ lumo               e:          11  2.203369155723041E-002
+ total electronic energy  =   -85.4366617268334     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4689612282507     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99945520001491     
+ total analytical fitted density   9.99944992787374     
+ functional energy  -9.33495193665565     
+  
+ vxc[fit]*rho[fit] =   -11.9632946639817     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7775090959159     
+ Exc(rhofit)                  :   -9.33495193665565     
+  
+ iteration number:            7
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7723948864500     
+ eigenvalue number, e:           2  -18.7723948863915     
+ eigenvalue number, e:           3 -0.893259659560983     
+ eigenvalue number, e:           4 -0.893259659504595     
+ eigenvalue number, e:           5 -0.448848428771006     
+ eigenvalue number, e:           6 -0.448848428679478     
+ eigenvalue number, e:           7 -0.303997899980986     
+ eigenvalue number, e:           8 -0.303997899936229     
+ eigenvalue number, e:           9 -0.225257844735673     
+ eigenvalue number, e:          10 -0.225257844732627     
+ lumo               e:          11  2.021613083743375E-002
+ total electronic energy  =   -85.4366838073332     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4689833087505     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99945507305423     
+ total analytical fitted density   9.99944980219370     
+ functional energy  -9.33954717067346     
+  
+ vxc[fit]*rho[fit] =   -11.9692387584702     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.8117448105622     
+ Exc(rhofit)                  :   -9.33954717067346     
+  
+ iteration number:            8
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7644930417082     
+ eigenvalue number, e:           2  -18.7644930416446     
+ eigenvalue number, e:           3 -0.891047415060584     
+ eigenvalue number, e:           4 -0.891047414968831     
+ eigenvalue number, e:           5 -0.447227425187954     
+ eigenvalue number, e:           6 -0.447227425092013     
+ eigenvalue number, e:           7 -0.301741687615954     
+ eigenvalue number, e:           8 -0.301741687582268     
+ eigenvalue number, e:           9 -0.222815561354629     
+ eigenvalue number, e:          10 -0.222815561319805     
+ lumo               e:          11  2.029393206623873E-002
+ total electronic energy  =   -85.4367034843007     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690029857180     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946320949886     
+ total analytical fitted density   9.99945794517209     
+ functional energy  -9.33730545620891     
+  
+ vxc[fit]*rho[fit] =   -11.9663077717895     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7929093269685     
+ Exc(rhofit)                  :   -9.33730545620891     
+  
+ iteration number:            9
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7682716181268     
+ eigenvalue number, e:           2  -18.7682716181089     
+ eigenvalue number, e:           3 -0.892440893061854     
+ eigenvalue number, e:           4 -0.892440893058499     
+ eigenvalue number, e:           5 -0.448244174627206     
+ eigenvalue number, e:           6 -0.448244174608638     
+ eigenvalue number, e:           7 -0.303142237310102     
+ eigenvalue number, e:           8 -0.303142237215707     
+ eigenvalue number, e:           9 -0.224303300125818     
+ eigenvalue number, e:          10 -0.224303300059231     
+ lumo               e:          11  2.054218972732193E-002
+ total electronic energy  =   -85.4367114576906     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690109591079     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946516143434     
+ total analytical fitted density   9.99945990018248     
+ functional energy  -9.33804854166977     
+  
+ vxc[fit]*rho[fit] =   -11.9672631741602     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7979586228322     
+ Exc(rhofit)                  :   -9.33804854166977     
+  
+ iteration number:           10
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7669941090699     
+ eigenvalue number, e:           2  -18.7669941090115     
+ eigenvalue number, e:           3 -0.892138286958271     
+ eigenvalue number, e:           4 -0.892138286904654     
+ eigenvalue number, e:           5 -0.448012949118160     
+ eigenvalue number, e:           6 -0.448012949107342     
+ eigenvalue number, e:           7 -0.302877286519123     
+ eigenvalue number, e:           8 -0.302877286487556     
+ eigenvalue number, e:           9 -0.223963999936725     
+ eigenvalue number, e:          10 -0.223963999911087     
+ lumo               e:          11  2.055118846580145E-002
+ total electronic energy  =   -85.4367172533665     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690167547838     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946703200631     
+ total analytical fitted density   9.99946177221470     
+ functional energy  -9.33762310916032     
+  
+ vxc[fit]*rho[fit] =   -11.9667035738401     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7941015689385     
+ Exc(rhofit)                  :   -9.33762310916032     
+  
+ iteration number:           11
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677144333773     
+ eigenvalue number, e:           2  -18.7677144331465     
+ eigenvalue number, e:           3 -0.892436307195648     
+ eigenvalue number, e:           4 -0.892436307166840     
+ eigenvalue number, e:           5 -0.448243098115592     
+ eigenvalue number, e:           6 -0.448243098061063     
+ eigenvalue number, e:           7 -0.303190293042759     
+ eigenvalue number, e:           8 -0.303190292995670     
+ eigenvalue number, e:           9 -0.224265275834569     
+ eigenvalue number, e:          10 -0.224265275830984     
+ lumo               e:          11  2.049482154022614E-002
+ total electronic energy  =   -85.4367199190257     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690194204430     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946764007099     
+ total analytical fitted density   9.99946238112023     
+ functional energy  -9.33772898223212     
+  
+ vxc[fit]*rho[fit] =   -11.9668366919361     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7945920792681     
+ Exc(rhofit)                  :   -9.33772898223212     
+  
+ iteration number:           12
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7675309056963     
+ eigenvalue number, e:           2  -18.7675309056854     
+ eigenvalue number, e:           3 -0.892424051373414     
+ eigenvalue number, e:           4 -0.892424051351158     
+ eigenvalue number, e:           5 -0.448234228899629     
+ eigenvalue number, e:           6 -0.448234228719565     
+ eigenvalue number, e:           7 -0.303189485485849     
+ eigenvalue number, e:           8 -0.303189485417178     
+ eigenvalue number, e:           9 -0.224239789450873     
+ eigenvalue number, e:          10 -0.224239789412399     
+ lumo               e:          11  2.049908898377244E-002
+ total electronic energy  =   -85.4367212910562     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690207924735     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946819175079     
+ total analytical fitted density   9.99946293335462     
+ functional energy  -9.33763715915986     
+  
+ vxc[fit]*rho[fit] =   -11.9667143831883     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7936414144266     
+ Exc(rhofit)                  :   -9.33763715915986     
+  
+ iteration number:           13
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7676863239893     
+ eigenvalue number, e:           2  -18.7676863239685     
+ eigenvalue number, e:           3 -0.892503863629290     
+ eigenvalue number, e:           4 -0.892503863452095     
+ eigenvalue number, e:           5 -0.448295042507434     
+ eigenvalue number, e:           6 -0.448295042471155     
+ eigenvalue number, e:           7 -0.303276482201031     
+ eigenvalue number, e:           8 -0.303276482144191     
+ eigenvalue number, e:           9 -0.224317195137373     
+ eigenvalue number, e:          10 -0.224317195083453     
+ lumo               e:          11  2.047811420897348E-002
+ total electronic energy  =   -85.4367220049816     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690215063989     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946847481463     
+ total analytical fitted density   9.99946321679813     
+ functional energy  -9.33764357491753     
+  
+ vxc[fit]*rho[fit] =   -11.9667207143526     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7935356265067     
+ Exc(rhofit)                  :   -9.33764357491753     
+  
+ iteration number:           14
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7676744103113     
+ eigenvalue number, e:           2  -18.7676744102629     
+ eigenvalue number, e:           3 -0.892521169585497     
+ eigenvalue number, e:           4 -0.892521169508157     
+ eigenvalue number, e:           5 -0.448307696776945     
+ eigenvalue number, e:           6 -0.448307696681615     
+ eigenvalue number, e:           7 -0.303298858531473     
+ eigenvalue number, e:           8 -0.303298858507645     
+ eigenvalue number, e:           9 -0.224329810794509     
+ eigenvalue number, e:          10 -0.224329810774789     
+ lumo               e:          11  2.047211985053338E-002
+ total electronic energy  =   -85.4367223788062     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690218802235     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946869338262     
+ total analytical fitted density   9.99946343562784     
+ functional energy  -9.33761925421730     
+  
+ vxc[fit]*rho[fit] =   -11.9666877441250     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7932370315697     
+ Exc(rhofit)                  :   -9.33761925421730     
+  
+ iteration number:           15
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677154954059     
+ eigenvalue number, e:           2  -18.7677154953719     
+ eigenvalue number, e:           3 -0.892548582450698     
+ eigenvalue number, e:           4 -0.892548582372718     
+ eigenvalue number, e:           5 -0.448328043032947     
+ eigenvalue number, e:           6 -0.448328043026051     
+ eigenvalue number, e:           7 -0.303329819263697     
+ eigenvalue number, e:           8 -0.303329819197323     
+ eigenvalue number, e:           9 -0.224355076695634     
+ eigenvalue number, e:          10 -0.224355076678338     
+ lumo               e:          11  2.046364573737163E-002
+ total electronic energy  =   -85.4367225751571     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690220765744     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946882526040     
+ total analytical fitted density   9.99946356768759     
+ functional energy  -9.33761466034812     
+  
+ vxc[fit]*rho[fit] =   -11.9666808359263     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7931260504416     
+ Exc(rhofit)                  :   -9.33761466034812     
+  
+ iteration number:           16
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677233537626     
+ eigenvalue number, e:           2  -18.7677233537486     
+ eigenvalue number, e:           3 -0.892559154105592     
+ eigenvalue number, e:           4 -0.892559154052392     
+ eigenvalue number, e:           5 -0.448336347514374     
+ eigenvalue number, e:           6 -0.448336347450657     
+ eigenvalue number, e:           7 -0.303345764893714     
+ eigenvalue number, e:           8 -0.303345764828246     
+ eigenvalue number, e:           9 -0.224366792122535     
+ eigenvalue number, e:          10 -0.224366792063983     
+ lumo               e:          11  2.033305818187615E-002
+ total electronic energy  =   -85.4367226994062     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690222008235     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946946032436     
+ total analytical fitted density   9.99946420278602     
+ functional energy  -9.33759350407725     
+  
+ vxc[fit]*rho[fit] =   -11.9666524524726     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7929015412119     
+ Exc(rhofit)                  :   -9.33759350407725     
+  
+ iteration number:           17
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677523656936     
+ eigenvalue number, e:           2  -18.7677523656045     
+ eigenvalue number, e:           3 -0.892581693178026     
+ eigenvalue number, e:           4 -0.892581693172527     
+ eigenvalue number, e:           5 -0.448353398823604     
+ eigenvalue number, e:           6 -0.448353398789770     
+ eigenvalue number, e:           7 -0.303368322601513     
+ eigenvalue number, e:           8 -0.303368322599053     
+ eigenvalue number, e:           9 -0.224384294655628     
+ eigenvalue number, e:          10 -0.224384294644751     
+ lumo               e:          11  2.044808587581679E-002
+ total electronic energy  =   -85.4367227425794     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690222439967     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946908878971     
+ total analytical fitted density   9.99946383130212     
+ functional energy  -9.33760113849883     
+  
+ vxc[fit]*rho[fit] =   -11.9666619873890     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7929265829056     
+ Exc(rhofit)                  :   -9.33760113849883     
+  
+ iteration number:           18
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677427955695     
+ eigenvalue number, e:           2  -18.7677427955581     
+ eigenvalue number, e:           3 -0.892581667053623     
+ eigenvalue number, e:           4 -0.892581666965547     
+ eigenvalue number, e:           5 -0.448352286671722     
+ eigenvalue number, e:           6 -0.448352286535653     
+ eigenvalue number, e:           7 -0.303368393749026     
+ eigenvalue number, e:           8 -0.303368393721982     
+ eigenvalue number, e:           9 -0.224383375022359     
+ eigenvalue number, e:          10 -0.224383375019379     
+ lumo               e:          11  2.045033162738895E-002
+ total electronic energy  =   -85.4367227698822     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690222712995     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946907305767     
+ total analytical fitted density   9.99946381571488     
+ functional energy  -9.33759588854200     
+  
+ vxc[fit]*rho[fit] =   -11.9666549021812     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7928586799680     
+ Exc(rhofit)                  :   -9.33759588854200     
+  
+ iteration number:           19
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677535033363     
+ eigenvalue number, e:           2  -18.7677535033282     
+ eigenvalue number, e:           3 -0.892587487241057     
+ eigenvalue number, e:           4 -0.892587487199022     
+ eigenvalue number, e:           5 -0.448356281178397     
+ eigenvalue number, e:           6 -0.448356281039642     
+ eigenvalue number, e:           7 -0.303375542008722     
+ eigenvalue number, e:           8 -0.303375541939654     
+ eigenvalue number, e:           9 -0.224388745522037     
+ eigenvalue number, e:          10 -0.224388745445921     
+ lumo               e:          11  2.044739221476079E-002
+ total electronic energy  =   -85.4367227845679     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690222859852     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946907507487     
+ total analytical fitted density   9.99946381777889     
+ functional energy  -9.33759636930484     
+  
+ vxc[fit]*rho[fit] =   -11.9666553387798     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7928444927893     
+ Exc(rhofit)                  :   -9.33759636930484     
+  
+ iteration number:           20
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677535311043     
+ eigenvalue number, e:           2  -18.7677535309037     
+ eigenvalue number, e:           3 -0.892589461294890     
+ eigenvalue number, e:           4 -0.892589461271518     
+ eigenvalue number, e:           5 -0.448357385688470     
+ eigenvalue number, e:           6 -0.448357385607506     
+ eigenvalue number, e:           7 -0.303378030100736     
+ eigenvalue number, e:           8 -0.303378030034999     
+ eigenvalue number, e:           9 -0.224390226310093     
+ eigenvalue number, e:          10 -0.224390226297066     
+ lumo               e:          11  2.044698009599718E-002
+ total electronic energy  =   -85.4367227919275     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690222933448     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946909363753     
+ total analytical fitted density   9.99946383639399     
+ functional energy  -9.33759466934081     
+  
+ vxc[fit]*rho[fit] =   -11.9666529951987     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7928182796937     
+ Exc(rhofit)                  :   -9.33759466934081     
+  
+ iteration number:           21
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677569506214     
+ eigenvalue number, e:           2  -18.7677569505415     
+ eigenvalue number, e:           3 -0.892591936898668     
+ eigenvalue number, e:           4 -0.892591936876207     
+ eigenvalue number, e:           5 -0.448359046366643     
+ eigenvalue number, e:           6 -0.448359046283146     
+ eigenvalue number, e:           7 -0.303381113105999     
+ eigenvalue number, e:           8 -0.303381113072198     
+ eigenvalue number, e:           9 -0.224392374331572     
+ eigenvalue number, e:          10 -0.224392374265002     
+ lumo               e:          11  2.044583732390890E-002
+ total electronic energy  =   -85.4367227961980     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690222976153     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946910364256     
+ total analytical fitted density   9.99946384642506     
+ functional energy  -9.33759422135403     
+  
+ vxc[fit]*rho[fit] =   -11.9666523142365     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7928056262278     
+ Exc(rhofit)                  :   -9.33759422135403     
+  
+ iteration number:           22
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677580137606     
+ eigenvalue number, e:           2  -18.7677580136689     
+ eigenvalue number, e:           3 -0.892593337850379     
+ eigenvalue number, e:           4 -0.892593337775153     
+ eigenvalue number, e:           5 -0.448359927982759     
+ eigenvalue number, e:           6 -0.448359927888126     
+ eigenvalue number, e:           7 -0.303382838662499     
+ eigenvalue number, e:           8 -0.303382838656804     
+ eigenvalue number, e:           9 -0.224393514406889     
+ eigenvalue number, e:          10 -0.224393514396660     
+ lumo               e:          11  2.044537735874741E-002
+ total electronic energy  =   -85.4367227983939     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690222998112     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946911335113     
+ total analytical fitted density   9.99946385615714     
+ functional energy  -9.33759350735251     
+  
+ vxc[fit]*rho[fit] =   -11.9666513147753     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927934101297     
+ Exc(rhofit)                  :   -9.33759350735251     
+  
+ iteration number:           23
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677594262647     
+ eigenvalue number, e:           2  -18.7677594262151     
+ eigenvalue number, e:           3 -0.892594553171056     
+ eigenvalue number, e:           4 -0.892594553091804     
+ eigenvalue number, e:           5 -0.448360733336874     
+ eigenvalue number, e:           6 -0.448360733259598     
+ eigenvalue number, e:           7 -0.303384342710465     
+ eigenvalue number, e:           8 -0.303384342579113     
+ eigenvalue number, e:           9 -0.224394543161517     
+ eigenvalue number, e:          10 -0.224394543156248     
+ lumo               e:          11  2.044485028614353E-002
+ total electronic energy  =   -85.4367227996531     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223010704     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946911927817     
+ total analytical fitted density   9.99946386209831     
+ functional energy  -9.33759313269996     
+  
+ vxc[fit]*rho[fit] =   -11.9666507754856     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927857094703     
+ Exc(rhofit)                  :   -9.33759313269996     
+  
+ iteration number:           24
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677601879634     
+ eigenvalue number, e:           2  -18.7677601879140     
+ eigenvalue number, e:           3 -0.892595366340994     
+ eigenvalue number, e:           4 -0.892595366330141     
+ eigenvalue number, e:           5 -0.448361259416088     
+ eigenvalue number, e:           6 -0.448361259387495     
+ eigenvalue number, e:           7 -0.303385335874139     
+ eigenvalue number, e:           8 -0.303385335821468     
+ eigenvalue number, e:           9 -0.224395217262571     
+ eigenvalue number, e:          10 -0.224395217200104     
+ lumo               e:          11  2.044455205322784E-002
+ total electronic energy  =   -85.4367228001953     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223016126     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946912409930     
+ total analytical fitted density   9.99946386693081     
+ functional energy  -9.33759278515692     
+  
+ vxc[fit]*rho[fit] =   -11.9666502857478     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927795248331     
+ Exc(rhofit)                  :   -9.33759278515692     
+  
+ iteration number:           25
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677608644522     
+ eigenvalue number, e:           2  -18.7677608644047     
+ eigenvalue number, e:           3 -0.892595995596770     
+ eigenvalue number, e:           4 -0.892595995394167     
+ eigenvalue number, e:           5 -0.448361674279550     
+ eigenvalue number, e:           6 -0.448361674164424     
+ eigenvalue number, e:           7 -0.303386109019528     
+ eigenvalue number, e:           8 -0.303386108912360     
+ eigenvalue number, e:           9 -0.224395745063918     
+ eigenvalue number, e:          10 -0.224395745008782     
+ lumo               e:          11  2.044428955529979E-002
+ total electronic energy  =   -85.4367228005387     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223019560     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946912731751     
+ total analytical fitted density   9.99946387015648     
+ functional energy  -9.33759255932823     
+  
+ vxc[fit]*rho[fit] =   -11.9666499644613     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927752482464     
+ Exc(rhofit)                  :   -9.33759255932823     
+  
+ iteration number:           26
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677613061460     
+ eigenvalue number, e:           2  -18.7677613061262     
+ eigenvalue number, e:           3 -0.892596440612021     
+ eigenvalue number, e:           4 -0.892596440552275     
+ eigenvalue number, e:           5 -0.448361964818302     
+ eigenvalue number, e:           6 -0.448361964794843     
+ eigenvalue number, e:           7 -0.303386651312777     
+ eigenvalue number, e:           8 -0.303386651296400     
+ eigenvalue number, e:           9 -0.224396115985050     
+ eigenvalue number, e:          10 -0.224396115943222     
+ lumo               e:          11  2.044411895832783E-002
+ total electronic energy  =   -85.4367228007005     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223021178     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946912978208     
+ total analytical fitted density   9.99946387262669     
+ functional energy  -9.33759238007466     
+  
+ vxc[fit]*rho[fit] =   -11.9666497112787     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927720198337     
+ Exc(rhofit)                  :   -9.33759238007466     
+  
+ iteration number:           27
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677616516297     
+ eigenvalue number, e:           2  -18.7677616516291     
+ eigenvalue number, e:           3 -0.892596771871692     
+ eigenvalue number, e:           4 -0.892596771861649     
+ eigenvalue number, e:           5 -0.448362182906306     
+ eigenvalue number, e:           6 -0.448362182877745     
+ eigenvalue number, e:           7 -0.303387056688521     
+ eigenvalue number, e:           8 -0.303387056630349     
+ eigenvalue number, e:           9 -0.224396393056857     
+ eigenvalue number, e:          10 -0.224396393021197     
+ lumo               e:          11  2.044398372917023E-002
+ total electronic energy  =   -85.4367228008032     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223022205     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913150470     
+ total analytical fitted density   9.99946387435319     
+ functional energy  -9.33759225476462     
+  
+ vxc[fit]*rho[fit] =   -11.9666495336772     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927697129621     
+ Exc(rhofit)                  :   -9.33759225476462     
+  
+ iteration number:           28
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677618931903     
+ eigenvalue number, e:           2  -18.7677618931255     
+ eigenvalue number, e:           3 -0.892597010909732     
+ eigenvalue number, e:           4 -0.892597010883965     
+ eigenvalue number, e:           5 -0.448362339354000     
+ eigenvalue number, e:           6 -0.448362339314512     
+ eigenvalue number, e:           7 -0.303387347544186     
+ eigenvalue number, e:           8 -0.303387347432960     
+ eigenvalue number, e:           9 -0.224396592521469     
+ eigenvalue number, e:          10 -0.224396592501787     
+ lumo               e:          11  2.044389035261187E-002
+ total electronic energy  =   -85.4367228008275     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223022448     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913278776     
+ total analytical fitted density   9.99946387563909     
+ functional energy  -9.33759216047496     
+  
+ vxc[fit]*rho[fit] =   -11.9666494004020     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927680095483     
+ Exc(rhofit)                  :   -9.33759216047496     
+  
+ iteration number:           29
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677620740326     
+ eigenvalue number, e:           2  -18.7677620739493     
+ eigenvalue number, e:           3 -0.892597186239795     
+ eigenvalue number, e:           4 -0.892597186237210     
+ eigenvalue number, e:           5 -0.448362454714622     
+ eigenvalue number, e:           6 -0.448362454607349     
+ eigenvalue number, e:           7 -0.303387561648069     
+ eigenvalue number, e:           8 -0.303387561582599     
+ eigenvalue number, e:           9 -0.224396739056009     
+ eigenvalue number, e:          10 -0.224396739008855     
+ lumo               e:          11  2.044381962056701E-002
+ total electronic energy  =   -85.4367228006982     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223021155     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913370385     
+ total analytical fitted density   9.99946387655718     
+ functional energy  -9.33759209283237     
+  
+ vxc[fit]*rho[fit] =   -11.9666493046687     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927667777504     
+ Exc(rhofit)                  :   -9.33759209283237     
+  
+ iteration number:           30
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677622035595     
+ eigenvalue number, e:           2  -18.7677622034163     
+ eigenvalue number, e:           3 -0.892597313688333     
+ eigenvalue number, e:           4 -0.892597313608678     
+ eigenvalue number, e:           5 -0.448362538223426     
+ eigenvalue number, e:           6 -0.448362538176088     
+ eigenvalue number, e:           7 -0.303387716644782     
+ eigenvalue number, e:           8 -0.303387716625512     
+ eigenvalue number, e:           9 -0.224396845434210     
+ eigenvalue number, e:          10 -0.224396845426614     
+ lumo               e:          11  2.044376934785345E-002
+ total electronic energy  =   -85.4367228007177     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223021350     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913437927     
+ total analytical fitted density   9.99946387723404     
+ functional energy  -9.33759204292599     
+  
+ vxc[fit]*rho[fit] =   -11.9666492341122     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927658756219     
+ Exc(rhofit)                  :   -9.33759204292599     
+  
+ iteration number:           31
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677622990840     
+ eigenvalue number, e:           2  -18.7677622990639     
+ eigenvalue number, e:           3 -0.892597406649806     
+ eigenvalue number, e:           4 -0.892597406647826     
+ eigenvalue number, e:           5 -0.448362599343283     
+ eigenvalue number, e:           6 -0.448362599282491     
+ eigenvalue number, e:           7 -0.303387830134547     
+ eigenvalue number, e:           8 -0.303387830084013     
+ eigenvalue number, e:           9 -0.224396923140301     
+ eigenvalue number, e:          10 -0.224396923119667     
+ lumo               e:          11  2.044373207285318E-002
+ total electronic energy  =   -85.4367228009859     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223024032     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913486662     
+ total analytical fitted density   9.99946387772243     
+ functional energy  -9.33759200678070     
+  
+ vxc[fit]*rho[fit] =   -11.9666491829859     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927652203122     
+ Exc(rhofit)                  :   -9.33759200678070     
+  
+ iteration number:           32
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677623682076     
+ eigenvalue number, e:           2  -18.7677623680970     
+ eigenvalue number, e:           3 -0.892597474359244     
+ eigenvalue number, e:           4 -0.892597474286812     
+ eigenvalue number, e:           5 -0.448362643761872     
+ eigenvalue number, e:           6 -0.448362643736836     
+ eigenvalue number, e:           7 -0.303387912534212     
+ eigenvalue number, e:           8 -0.303387912475679     
+ eigenvalue number, e:           9 -0.224396979691662     
+ eigenvalue number, e:          10 -0.224396979624447     
+ lumo               e:          11  2.044370530787580E-002
+ total electronic energy  =   -85.4367228008823     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223022996     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913522246     
+ total analytical fitted density   9.99946387807901     
+ functional energy  -9.33759198031672     
+  
+ vxc[fit]*rho[fit] =   -11.9666491455692     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927647419153     
+ Exc(rhofit)                  :   -9.33759198031672     
+  
+ iteration number:           33
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677624187199     
+ eigenvalue number, e:           2  -18.7677624186358     
+ eigenvalue number, e:           3 -0.892597523781575     
+ eigenvalue number, e:           4 -0.892597523729500     
+ eigenvalue number, e:           5 -0.448362676246087     
+ eigenvalue number, e:           6 -0.448362676131406     
+ eigenvalue number, e:           7 -0.303387972634477     
+ eigenvalue number, e:           8 -0.303387972537617     
+ eigenvalue number, e:           9 -0.224397020882265     
+ eigenvalue number, e:          10 -0.224397020876872     
+ lumo               e:          11  2.044368558609409E-002
+ total electronic energy  =   -85.4367228008386     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223022559     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913548107     
+ total analytical fitted density   9.99946387833815     
+ functional energy  -9.33759196107985     
+  
+ vxc[fit]*rho[fit] =   -11.9666491183658     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927643937940     
+ Exc(rhofit)                  :   -9.33759196107985     
+  
+ iteration number:           34
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677624554116     
+ eigenvalue number, e:           2  -18.7677624552427     
+ eigenvalue number, e:           3 -0.892597559716299     
+ eigenvalue number, e:           4 -0.892597559640986     
+ eigenvalue number, e:           5 -0.448362699742945     
+ eigenvalue number, e:           6 -0.448362699709811     
+ eigenvalue number, e:           7 -0.303388016463267     
+ eigenvalue number, e:           8 -0.303388016250661     
+ eigenvalue number, e:           9 -0.224397051023508     
+ eigenvalue number, e:          10 -0.224397050916911     
+ lumo               e:          11  2.044367135078431E-002
+ total electronic energy  =   -85.4367228006268     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223020441     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913567055     
+ total analytical fitted density   9.99946387852801     
+ functional energy  -9.33759194703356     
+  
+ vxc[fit]*rho[fit] =   -11.9666490985063     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927641399415     
+ Exc(rhofit)                  :   -9.33759194703356     
+  
+ iteration number:           35
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677624822498     
+ eigenvalue number, e:           2  -18.7677624820644     
+ eigenvalue number, e:           3 -0.892597585909081     
+ eigenvalue number, e:           4 -0.892597585817236     
+ eigenvalue number, e:           5 -0.448362716986109     
+ eigenvalue number, e:           6 -0.448362716905941     
+ eigenvalue number, e:           7 -0.303388048439030     
+ eigenvalue number, e:           8 -0.303388048305921     
+ eigenvalue number, e:           9 -0.224397072809517     
+ eigenvalue number, e:          10 -0.224397072806005     
+ lumo               e:          11  2.044366095657933E-002
+ total electronic energy  =   -85.4367228007619     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223021792     
+  
+ -----------------------------------------------
+ Total number of grid points=       13394
+ total fitted density   9.99946913580746     
+ total analytical fitted density   9.99946387866520     
+ functional energy  -9.33759193680915     
+  
+ vxc[fit]*rho[fit] =   -11.9666490840494     
+  
+ ******** energies values ********* 
+  
+ ******** energies fitted values ********* 
+  
+ coulomb  energy(fitting)     :    46.7927639550832     
+ Exc(rhofit)                  :   -9.33759193680915     
+  
+ iteration number:           36
+ level shift parameter =   -1.00000000000000     
+ eigenvalue number, e:           1  -18.7677625017602     
+ eigenvalue number, e:           2  -18.7677625016330     
+ eigenvalue number, e:           3 -0.892597605028727     
+ eigenvalue number, e:           4 -0.892597605004021     
+ eigenvalue number, e:           5 -0.448362729547933     
+ eigenvalue number, e:           6 -0.448362729444542     
+ eigenvalue number, e:           7 -0.303388071530740     
+ eigenvalue number, e:           8 -0.303388071463123     
+ eigenvalue number, e:           9 -0.224397088760041     
+ eigenvalue number, e:          10 -0.224397088742220     
+ lumo               e:          11  2.044365336081891E-002
+ total electronic energy  =   -85.4367228007576     
+ nuclear repulsion energy =    8.96770049858270     
+ total energy             =   -76.4690223021748     
+  
+ -----------------------------------------------
+  
+ **********************************************
+ final output:
+ convergence obtained in          36      iterations
+  
+ bond length =   0.000000000000000E+000
+ total energy =   -76.4690223021748     
+  
+ total cpu-time used (sec):  -55.9424590000000     
+ **********************************************
