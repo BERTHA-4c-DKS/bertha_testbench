@@ -22,7 +22,7 @@ echo "Num. of Threads: " $OMP_NUM_THREADS
 grep "total fitted density" run_"$numth"_"$BERTHA_KRGRID"_"$BERTHA_KAGRID".out  | tail -n 1
 grep "functional energy" run_"$numth"_"$BERTHA_KRGRID"_"$BERTHA_KAGRID".out  | tail -n 1
 grep "total analytical fitted density" run_"$numth"_"$BERTHA_KRGRID"_"$BERTHA_KAGRID".out  | tail -n 1 
-grep "convergence obtained in" run_"$numth"_"$BERTHA_KRGRID"_"$BERTHA_KAGRID".out .out  | tail -n 1
+grep "convergence obtained in" run_"$numth"_"$BERTHA_KRGRID"_"$BERTHA_KAGRID".out  | tail -n 1
 grep "total energy =" run_"$numth"_"$BERTHA_KRGRID"_"$BERTHA_KAGRID".out  | tail -n 1
 
 rm -f fittcoeff.restart ovap.out fockmtx.txt vct.out 
